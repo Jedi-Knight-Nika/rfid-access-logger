@@ -44,7 +44,6 @@ void NotificationManager::errorNotification()
 
 void NotificationManager::waitingNotification()
 {
-  // Gentle pulsing of LED
   for (int i = 0; i < 5; i++)
   {
     digitalWrite(ledPin, HIGH);
